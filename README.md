@@ -1,2 +1,12 @@
-# CLI_Text_Analyzer_Tool
-CLI Text Analyzer: A Python tool to analyze text files, built for my PCAP certification portfolio. Counts lines, chars, words, unique words, and searches keywords (case-insensitive). Cleans non-alphabetic chars (e.g., "test." → "test"). Shows skills in file I/O, argparse, and error handling. Clone and try it! (280 chars)
+# CLI Text Analyzer Tool
+
+A command-line tool to analyze text files, built with Python for my portfolio as part of PCAP certification and job preparation.
+
+## Features
+- Reads a text file and provides detailed analysis.
+- Counts total lines, characters (excluding newlines), total words, and unique words.
+- Searches for a keyword (case-insensitive) and counts its occurrences.
+- Cleans words by removing non-alphabetic characters (e.g., "test." → "test").
+
+## Usage
+Run the script with a filename and an optional search keyword:
