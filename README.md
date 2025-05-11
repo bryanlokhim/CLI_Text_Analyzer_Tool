@@ -1,4 +1,6 @@
-# 📝 Text File Analyzer
+## 📝 Text File Analyzer
+
+<img src="find_him.jpg" width="600" alt="Climber scaling a steep cliff">
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
