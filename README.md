@@ -1,12 +1,19 @@
-# CLI Text Analyzer Tool
+# Text File Analyzer
 
-A command-line tool to analyze text files, built with Python for my portfolio as part of PCAP certification and job preparation.
+A simple Python command-line tool to analyze text files. This script counts lines, characters, total words, unique words, and searches for occurrences of a specified keyword in a given text file.
 
 ## Features
-- Reads a text file and provides detailed analysis.
-- Counts total lines, characters (excluding newlines), total words, and unique words.
-- Searches for a keyword (case-insensitive) and counts its occurrences.
-- Cleans words by removing non-alphabetic characters (e.g., "test." → "test").
+- **Line Count**: Counts the total number of lines in the file.
+- **Character Count**: Counts the total number of characters (excluding newlines).
+- **Word Count**: Counts the total number of words (punctuation removed).
+- **Unique Words**: Counts the number of unique words (case-insensitive).
+- **Keyword Search**: Searches for occurrences of a specified keyword (case-insensitive).
 
-## Usage
-Run the script with a filename and an optional search keyword:
+## Requirements
+- Python 3.x
+- No external dependencies
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/text-file-analyzer.git
